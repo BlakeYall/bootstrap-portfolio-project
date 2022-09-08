@@ -6,11 +6,7 @@
   font-family: sans-serif;
 }
 
-main {
-  background: #e5e5e5;
-}
-
-header section {
+header > section {
   height: 700px;
   background: url('images/Header\ bg.png');
   background-repeat: no-repeat;
@@ -28,12 +24,15 @@ header section {
   line-height: 60px;
   color: #091e42;
 }
+main {
+  background: #e5e5e5;
+}
 
 section ul {
   gap: 20px;
 }
 
-.work .container {
+.card-container {
   border: 1px solid #e5e5e5c0;
   border-radius: 8px;
 }
@@ -53,4 +52,34 @@ section ul {
   padding: 2px 10px;
   border-radius: 5px;
   font-size: 12px;
+}
+
+.contact {
+  height: 700px;
+  background: url('images/contact\ form\ background\ shapes.png') #6070ff;
+}
+
+.about-me {
+  height: 700px;
+}
+
+.about-me .title {
+  width: 447px;
+  height: 102px;
+}
+
+.skill {
+  width: 122px;
+  height: 120px;
+  float: left;
+  margin-right: 24px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+form input {
+  width: 447px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
 }
