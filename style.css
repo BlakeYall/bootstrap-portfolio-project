@@ -2,7 +2,55 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-transform: none;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
+}
+
+main {
+  background: #e5e5e5;
+}
+
+header section {
+  height: 700px;
+  background: url('images/Header\ bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  position: relative;
+  top: 200px;
+}
+
+.heading h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #091e42;
+}
+
+section ul {
+  gap: 20px;
+}
+
+.work .container {
+  border: 1px solid #e5e5e5c0;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: #091e42;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.card-text {
+  color: #344563;
+}
+
+.dev-tools li {
+  background: #ebebff;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
 }
