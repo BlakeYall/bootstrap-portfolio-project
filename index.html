@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example3">
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example3">
         <div class="container">
           <a class="navbar-brand text-primary" href="#">Inyambo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,20 +19,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#section1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#section2">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#section3">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section4">About</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <section class="container-fluid">
+      <section class="container-fluid" id="section1">
         <div class="mx-auto w-50 heading">
           <h1>I'm Inyambo<br>Glad to see you!</h1>
           <p>
@@ -65,7 +68,7 @@
   </header>
 
   <main>
-    <section class="work section">
+    <section class="work section" id="section2">
       <div class="container d-flex flex-lg-row justify-content-center flex-sm-column card-container bg-white my-5">
           <img class="card-img col my-lg-3 mx-lg-auto my-sm-2" src="images/portoflio-card/Snapshoot-Portfolio-2.png" alt="Card image cap">
           <div class="card-body mt-4 col">
@@ -153,7 +156,7 @@
       </div>
     </section>
 
-    <section class="container-fluid align-items-center  row about-me bg-white">
+    <section class="container-fluid align-items-center  row about-me bg-white" id="section3">
       <div class="col mx-5">
         <h4>I'm Inyambo<br>Glad to see you!</h4>
         <p class="title">
@@ -199,7 +202,7 @@
       </div>
     </section>
 
-      <section class="container-fluid d-flex flex-column justify-content-center contact">
+      <section class="container-fluid d-flex flex-column justify-content-center contact" id="section4">
         <form  class="text-center text-white">
           <div>
             <h4>Contact me</h4>
@@ -216,7 +219,7 @@
           <div class="mb-3">
             <input type="email" class="form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-  
+
           <div class="mb-3">
             <textarea class="form-control-sm" id="exampleFormControlTextarea1" rows="10" cols="59" placeholder="Message here"></textarea>
           </div>
